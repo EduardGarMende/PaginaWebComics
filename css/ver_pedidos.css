@@ -1,0 +1,79 @@
+.pedidos-container {
+    width: 90%;
+    margin: auto;
+    font-family: Arial, sans-serif;
+}
+
+.pedido {
+    margin-bottom: 40px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.pedido-title {
+    font-size: 1.5em;
+    color: #BA181B;
+    margin-bottom: 10px;
+}
+
+.pedido-date {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.pedido-productos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.pedido-item {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #fff;
+    width: 100%;
+}
+
+.pedido-item-img {
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.pedido-item-details {
+    flex-grow: 1;
+}
+
+.pedido-item-title {
+    font-size: 1.2em;
+    margin: 0;
+    font-weight: bold;
+}
+
+.pedido-item-author {
+    font-size: 1em;
+    color: #666;
+}
+
+.empty-pedidos-message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    text-align: center;
+    font-size: 1.5em;
+    color: #721c24;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    border-radius: 8px;
+}
+
+#titulo_mis_pedidos {
+    padding-left: 15px;
+}

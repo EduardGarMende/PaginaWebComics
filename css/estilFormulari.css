@@ -1,0 +1,62 @@
+/* Estils per al formulari de registre */
+.formulari-registre {
+    background-color: #fff;
+    padding: 30px;
+    margin: 40px auto;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.formulari-registre h2 {
+    text-align: center;
+    font-size: 2em;
+    color: #ba181b;
+    margin-bottom: 20px;
+}
+
+.formulari-registre label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+.formulari-registre input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    background-color: #f4f4f4;
+}
+
+.formulari-registre input:focus {
+    outline: none;
+    border-color: #ba181b;
+}
+
+.formulari-registre button {
+    width: 100%;
+    padding: 14px;
+    background-color: #ba181b;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.formulari-registre button:hover {
+    background-color: #660708;
+}
+
+.error-message {
+    color: #ff0000;
+    font-size: 0.9em;
+    margin-bottom: 15px;
+    text-align: center;
+}

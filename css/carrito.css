@@ -1,0 +1,105 @@
+h1 {
+    padding-left: 75px;
+}
+
+.carrito-container {
+    width: 90%;
+    margin: auto;
+    font-family: Arial, sans-serif;
+}
+
+.carrito-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.carrito-item-img {
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.carrito-item-details {
+    flex-grow: 1;
+}
+
+.carrito-item-title {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.carrito-item-author {
+    font-size: 1em;
+    color: #666;
+}
+
+.carrito-item-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.carrito-item-price {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.carrito-item-quantity {
+    width: 60px;
+    text-align: center;
+}
+
+.carrito-item-remove {
+    background: none;
+    border: none;
+    font-size: 1.5em;
+    color: #BA181B;
+    cursor: pointer;
+}
+
+.carrito-total {
+    text-align: right;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.carrito-comprar {
+    padding: 10px 20px;
+    background-color: #BA181B;
+    color: white;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.empty-cart-message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh; /* Ocupa el 50% de la altura de la ventana */
+    text-align: center;
+    background-color: #f8d7da; /* Color de fondo rojo claro */
+    color: #721c24; /* Texto rojo oscuro */
+    border: 1px solid #f5c6cb; /* Borde rojo suave */
+    border-radius: 8px; /* Bordes redondeados */
+    font-size: 1.5em; /* Tamaño de fuente más grande */
+    margin: 20px; /* Margen alrededor del contenedor */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para darle un efecto destacado */
+}
+
+.carrito-vaciar {
+    padding: 10px 20px;
+    background-color: #BA181B; /* Un to de vermell per destacar */
+    color: white;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin-right: 10px; /* Espai entre els botons */
+    transition: background-color 0.3s ease;
+}
+

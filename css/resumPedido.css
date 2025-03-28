@@ -1,0 +1,36 @@
+h1 {
+    color: #BA181B;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-size: 1.2em;
+    color: #555;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    max-width: 600px;
+    margin: auto;
+}
+
+li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #BA181B;
+    text-decoration: none;
+}

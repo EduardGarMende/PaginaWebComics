@@ -1,0 +1,80 @@
+.resumen-container {
+    width: 90%;
+    margin: auto;
+    font-family: Arial, sans-serif;
+}
+
+.resumen-title {
+    text-align: center;
+    font-size: 2em;
+    color: #BA181B;
+    margin-top: 20px;
+}
+
+.resumen-subtitle {
+    text-align: center;
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.pedido-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.pedido-item-img {
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.pedido-item-details {
+    flex-grow: 1;
+}
+
+.pedido-item-title {
+    font-size: 1.5em;
+    margin: 0;
+    font-weight: bold;
+}
+
+.pedido-item-author {
+    font-size: 1em;
+    color: #666;
+}
+
+.seguir-comprando {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.seguir-comprando-button {
+    padding: 10px 20px;
+    background-color: #BA181B;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.2em;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.seguir-comprando-button:hover {
+    background-color: #660708;
+}
+
+.empty-pedido-message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    text-align: center;
+    font-size: 1.5em;
+    color: #721c24;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    border-radius: 8px;
+}
