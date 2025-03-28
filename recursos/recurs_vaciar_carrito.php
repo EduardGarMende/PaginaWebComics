@@ -1,0 +1,1 @@
+<?php require __DIR__.'/../controladors/vaciar_carrito.php'; ?>

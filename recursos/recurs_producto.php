@@ -1,0 +1,1 @@
+<?php require __DIR__.'/../controladors/mostrar_producte.php'; ?>
